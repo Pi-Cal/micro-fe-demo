@@ -1,8 +1,8 @@
 # micro-fe-demo
 Make sure that yarn or npm is installed.
-Project structure: 
-- Client: create Counter component
-- Host: use Counter component of Client
+- Project structure: 
+    - Client: create Counter component
+    - Host: use Counter component of Client
 Run: 
 - Host
     - cd host
