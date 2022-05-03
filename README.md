@@ -1,8 +1,8 @@
 # micro-fe-demo
 Make sure that yarn or npm is installed.
 ### Project structure: 
-- Client: create Counter component
-- Host: use Counter component of Client
+- Client: create Counter component then expose at webpack.config.js
+- Host: use Counter component of Client remoted at webpack.config.js
 ### Run: 
 - Host
     - cd host
