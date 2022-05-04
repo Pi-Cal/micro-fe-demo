@@ -2,13 +2,17 @@
 Make sure that yarn or npm is installed.
 ### Project structure: 
 - Client: create Counter component then expose at webpack.config.js
-- Host: use Counter component of Client remoted at webpack.config.js
+- Host, ReactHost: use Counter component of Client remote at webpack.config.js
 ### Run: 
+- Client (must implement first)
+    - cd remoteclient
+    - yarn / npm install
+    - yarn start / npm start
 - Host
     - cd host
     - yarn / npm install
     - yarn start / npm start
-- Client
-    - cd remoteclient
+- ReactHost
+    - cd reacthost
     - yarn / npm install
     - yarn start / npm start
