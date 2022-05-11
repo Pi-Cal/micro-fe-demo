@@ -46,7 +46,7 @@ module.exports = {
       remotes: {},
       exposes: {
         "./Card" : "./src/Card.jsx",
-        "./counterCard" : "./src/counterCard.jsx"
+        "./cardWrapper" : "./src/cardWrapper.jsx"
       },
       shared: {
         ...deps,

@@ -2,8 +2,8 @@ import { render } from "solid-js/web";
 
 import "./index.scss";
 
-import Counter from "./Card";
+import Card from "./Card";
 
 export default (element) => {
-  render(Counter, element)
+  render(Card, element)
 };
