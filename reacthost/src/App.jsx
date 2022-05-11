@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 
 import "./index.scss";
 
-import counterWrapper from "remoteclient/counterWrapper";
+import counterCard from "remoteclient/counterWrapper";
 
 const App = () => {
   const divRef = useRef(null);
 
   useEffect(() => {
-    counterWrapper(divRef.current);
+    counterCard(divRef.current);
   }, []);
 
   return (
